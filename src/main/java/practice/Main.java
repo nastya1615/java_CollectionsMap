@@ -27,8 +27,10 @@ public class Main {
                         phoneBook.addContact(namber, words[0]);
                     }
 
-                    else
+                    else{
                         System.out.println("");
+                    }
+
 
 
 
