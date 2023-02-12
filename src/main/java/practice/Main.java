@@ -54,29 +54,6 @@ public class Main {
 
             }
 
-            else {
-
-                if (words[0].equals("LISTC")) {
-
-                    System.out.println(words[1]);
-
-                    for (String contact : phoneBook.getContactByName(words[1])) {
-                        System.out.println("ghbdtn");
-                        System.out.println(contact);
-
-                    }
-
-                }
-
-                if (words[0].equals("LISTN")) {
-
-                    System.out.println(phoneBook.getContactByPhone(words[1]));
-
-
-
-                }
-            }
-
 
         }
 
